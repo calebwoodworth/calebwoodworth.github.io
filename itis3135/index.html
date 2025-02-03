@@ -6,34 +6,63 @@
     <title>Caleb Woodworth's Website</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #90EE90;
+            background-color: #FAEBD7; /* Light beige background */
             font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
         }
         #title {
-            text-align: center;
-            font-size: 30px;
+            font-size: 28px;
             font-weight: bold;
-            background-color: #fff;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-            position: absolute;  /* Allows precise placement */
-            top: 0;  /* Places it at the very top of the page */
-            left: 50%;  /* Moves the element towards the center */
-            transform: translateX(-50%);  /* Centers it horizontally */
-            width: 100%; /* Optional: Makes it span the full width */
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+        }
+        #home {
+            margin-top: 20px;
+            font-size: 22px;
+            font-style: italic;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
 
     <div id="title">Caleb Woodworth Clever Walrus 💻💻 ITIS 3135</div>
+
+    <nav>
+        <a href="#">Home</a> | 
+        <a href="#">Introduction</a> | 
+        <a href="#">Contact</a>
+    </nav>
+
+    <div id="home">
+        <p>"Learning, Coding, Sharing."</p>
+    </div>
+
+    <div class="links">
+        <p>Other links:</p>
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a> | 
+        <a href="#">GitHub.io</a>
+    </div>
+
+    <footer>
+        <p>Page built by Clever Walrus ©2025</p>
+        <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_64.png" alt="HTML5">
+        <img src="https://www.w3.org/Style/CSS/Buttons/css3-off.png" alt="CSS3">
+    </footer>
 
 </body>
 </html>
