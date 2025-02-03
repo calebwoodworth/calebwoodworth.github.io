@@ -51,26 +51,27 @@
             font-size: 16px; 
             font-weight: bold;
         }
+        /* New CSS class for the caption */
+        .caption {
+            text-align: center;
+            font-style: italic;
+        }
     </style>
 </head>
-
 <body>
-
     <div id="title">Caleb Woodworth's Clever Walrus 💻💻 ITIS 3135</div>
-
     <nav>
-        <a href="index.html">Home</a> | 
-        <a href="introduction.html">Introduction</a> | 
+        <a href="index.html">Home</a> 
+        <span>|</span>
+        <a href="introduction.html">Introduction</a> 
+        <span>|</span>
         <a href="contract.html">Contract</a>
     </nav>
-
     <h1>Caleb "Clever Walrus" Woodworth Introduction</h1>
-
     <div id="profile-picture" class="section">
         <img src="IMG_9700 (1).png" alt="My LinkedIn Profile Picture" style="width: 200px; height: auto; border-radius: 50%; display: block; margin: 0 auto;">
-        <p style="text-align: center; font-style: italic;">My LinkedIn Profile Picture</p>
+        <p class="caption">My LinkedIn Profile Picture</p>
     </div>
-    
     
     <div id="personal-background" class="section">
         <h2>Personal Background:</h2>
@@ -86,12 +87,10 @@
         <h2>Academic Background:</h2>
         <p>I graduated high school from a smaller private school spending a lot of my time focusing on intro computer science courses such as Intro to Python and Java alongside Computer Networking.</p>
     </div>
-
     <div id="primary-platform" class="section">
         <h2>Primary Computer Platform:</h2>
         <p>Mac laptop</p>
     </div>
-
     <div id="courses" class="section">
         <h2>Courses I'm Taking, & Why:</h2>
         <ul>
@@ -102,16 +101,16 @@
             <li><strong>ITSC2175 - Logic and Algorithms:</strong> To better understand the structured design and step-by-step procedures used within a class to solve a problem or perform a specific task in programming.</li>
         </ul>
     </div>
-
     <div id="funny-item" class="section">
         <h2>Funny/Interesting Item To Remember Me By:</h2>
         <p>I am almost always wearing a hat.</p>
     </div>
-
     <div id="share" class="section">
         <h2>I'd Also Like to Share:</h2>
         <p>Fishing is my life. I am very quiet.</p>
     </div>
+
+    <!-- Script placed here just before the closing body tag -->
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </body>
 </html>
