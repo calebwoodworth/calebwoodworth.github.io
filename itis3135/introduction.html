@@ -11,6 +11,24 @@
             margin: 0;
             padding: 20px;
         }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+        }
         h1 {
             font-size: 24px;
             font-weight: bold;
@@ -24,32 +42,9 @@
         .section {
             margin-top: 30px;
         }
-        #personal-background, #professional-background, #academic-background, #primary-platform, #courses, #funny-item {
-            margin-bottom: 18px;
-        }
         ul {
             list-style-type: disc;
             margin-left: 20px;
-        }
-        nav {
-            text-align: center;
-            width: 100%; 
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: blue;
-            font-size: 18px;
-        }
-        #title {
-            font-size: 28px;
-            font-weight: bold;
-            padding: 20px;
-            text-align: center;
-        }
-        h2 {
-            font-size: 16px; 
-            font-weight: bold;
         }
         .caption {
             text-align: center;
@@ -59,32 +54,31 @@
             text-align: center;
             margin: 0 auto;
         }
-
         #profile-picture img {
-            width: 200px; /* Adjust width as needed */
-            height: auto; /* Maintains aspect ratio */
+            width: 200px;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <div id="title">Caleb Woodworth's Clever Walrus 💻💻 ITIS 3135</div>
+    <header>Caleb Woodworth's Clever Walrus 💻💻 ITIS 3135</header>
+    
     <nav>
-        <a href="index.html">Home</a> 
-        <span>|</span>
-        <a href="introduction.html">Introduction</a> 
-        <span>|</span>
+        <a href="index.html">Home</a> | 
+        <a href="introduction.html">Introduction</a> | 
         <a href="contract.html">Contract</a>
     </nav>
+    
     <h1>Caleb "Clever Walrus" Woodworth Introduction</h1>
+    
     <div id="profile-picture" class="section">
-        <img src="IMG_9700 (1).png" alt="My LinkedIn Profile Picture" class="profile-image">
+        <img src="IMG_9700 (1).png" alt="My LinkedIn Profile Picture">
         <p class="caption">My LinkedIn Profile Picture</p>
     </div>
     
-    
     <div id="personal-background" class="section">
         <h2>Personal Background:</h2>
-        <p>I grew up in Apex, NC attending a smaller Christian private school. I was a big time soccer player all the way up through high school. Now I enjoy fishing in my free time. I have a younger brother and sister and a dog.</p>
+        <p>I grew up in Apex, NC attending a smaller Christian private school. I was a big-time soccer player all the way up through high school. Now I enjoy fishing in my free time.</p>
     </div>
     
     <div id="professional-background" class="section">
@@ -94,31 +88,33 @@
     
     <div id="academic-background" class="section">
         <h2>Academic Background:</h2>
-        <p>I graduated high school from a smaller private school spending a lot of my time focusing on intro computer science courses such as Intro to Python and Java alongside Computer Networking.</p>
+        <p>I graduated high school from a smaller private school, focusing on intro computer science courses such as Intro to Python and Java alongside Computer Networking.</p>
     </div>
+    
     <div id="primary-platform" class="section">
         <h2>Primary Computer Platform:</h2>
         <p>Mac laptop</p>
     </div>
+    
     <div id="courses" class="section">
         <h2>Courses I'm Taking, &amp; Why:</h2>
         <ul>
-            <li><strong>ITIS3135 - Web Apps Development:</strong> I want to begin learning about HTML and was also a required class for my concentration in cybersecurity.</li>
-            <li><strong>INFO2130 - Intro to Business Computing:</strong> I want to get good at working in excel and was also a required class for my minor in economics.</li>
-            <li><strong>ECON2101 - Principles of Economics-Macro:</strong> I want to better understand how economies function on a large scale, including topics like inflation, unemployment, and economic growth, which impact businesses.</li>
-            <li><strong>CTCM2530 - Critical Thinking &amp; Communication (History of Photography):</strong> Not exactly a class of interest to me, but am required to take one critical thinking class. This one sounded the most appealing to me.</li>
-            <li><strong>ITSC2175 - Logic and Algorithms:</strong> To better understand the structured design and step-by-step procedures used within a class to solve a problem or perform a specific task in programming.</li>
-        </ul>        
+            <li><strong>ITIS3135 - Web Apps Development:</strong> I want to learn HTML and was also required for my concentration in cybersecurity.</li>
+            <li><strong>INFO2130 - Intro to Business Computing:</strong> I want to get good at working in Excel and it’s required for my minor in economics.</li>
+            <li><strong>ECON2101 - Principles of Economics-Macro:</strong> To better understand large-scale economic functions.</li>
+            <li><strong>CTCM2530 - Critical Thinking &amp; Communication:</strong> Required, but seemed the most appealing.</li>
+            <li><strong>ITSC2175 - Logic and Algorithms:</strong> To better understand structured design in programming.</li>
+        </ul>
     </div>
+    
     <div id="funny-item" class="section">
         <h2>Funny/Interesting Item To Remember Me By:</h2>
         <p>I am almost always wearing a hat.</p>
     </div>
+    
     <div id="share" class="section">
         <h2>I'd Also Like to Share:</h2>
         <p>Fishing is my life. I am very quiet.</p>
     </div>
-
-    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </body>
 </html>
