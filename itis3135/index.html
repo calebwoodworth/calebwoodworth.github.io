@@ -28,6 +28,14 @@
             color: blue;
             font-size: 18px;
         }
+        main {
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
         .content {
             margin-top: 20px;
             font-size: 20px;
@@ -36,6 +44,30 @@
             margin-top: 30px;
             font-size: 14px;
         }
+
+        @media screen and (min-width: 601px) and (max-width: 980px) {
+            body {
+                background-color: lightgray;
+            }
+            main {
+                width: 95%;
+                padding: 15px;
+            }
+        }
+
+        @media screen and (min-width: 370px) and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+            main {
+                width: 100%;
+                padding: 10px;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
     </style>
 </head>
 
@@ -43,7 +75,6 @@
 
     <header>
         <div data-include="components/header.html"></div>
-
     </header>
 
     <nav>
@@ -52,23 +83,26 @@
         <a href="contract.html">Contract</a>
     </nav>
 
-    <div class="content">
-        <p>Welcome to my ITIS 3135 webpage. Here, you'll find all my coursework and related links.</p>
-        <p>
-            <a href="https://webpages.charlotte.edu/cwoodwor/" target="_blank">Charlotte.edu</a> |
-            <a href="https://github.com/calebwoodworth" target="_blank">Github</a> |
-            <a href="https://calebwoodworth.github.io/" target="_blank">Github.io</a> |
-            <a href="https://www.freecodecamp.org/cwoodworth19">FreeCodeCamp</a> |
-            <a href="https://www.codecademy.com/profiles/cwoodworth19">Codeacademy</a> |
-            <a href="https://www.linkedin.com/in/caleb-woodworth-309739294/" target="_blank">LinkedIn</a> 
-        </p>
-    </div>
+    <main>
+        <div class="content">
+            <p>Welcome to my ITIS 3135 webpage. Here, you'll find all my coursework and related links.</p>
+            <p>
+                <a href="https://webpages.charlotte.edu/cwoodwor/" target="_blank">Charlotte.edu</a> |
+                <a href="https://github.com/calebwoodworth" target="_blank">Github</a> |
+                <a href="https://calebwoodworth.github.io/" target="_blank">Github.io</a> |
+                <a href="https://www.freecodecamp.org/cwoodworth19">FreeCodeCamp</a> |
+                <a href="https://www.codecademy.com/profiles/cwoodworth19">Codeacademy</a> |
+                <a href="https://www.linkedin.com/in/caleb-woodworth-309739294/" target="_blank">LinkedIn</a> 
+            </p>
+        </div>
+    </main>
 
     <footer>
         <div data-include="components/footer.html"></div>  
     </footer>
-    <script src="scripts/HTMLInclude.min.js"></script>
 
+    <script src="scripts/HTMLInclude.min.js"></script>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
