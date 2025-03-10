@@ -24,7 +24,7 @@ nav a {
 main {
     max-width: 1200px;
     width: 90%;
-    margin: center;
+    margin: 0 auto;
     background-color: white;
     border-radius: 10px;
 }
