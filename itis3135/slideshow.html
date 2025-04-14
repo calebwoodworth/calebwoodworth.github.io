@@ -9,89 +9,73 @@
   <script src="scripts/slideshow.js" defer></script>
 
   <style>
+    /* Set page background color */
     body {
-  background-color: #90EE90;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
-
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 15px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-nav {
-  margin-top: 10px;
-  text-align: center; /* Center the nav */
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: blue;
-  font-size: 18px;
-}
-
-main {
-  max-width: 1200px;
-  width: 90%;
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 10px;
-  padding-top: 20px;
-}
-
-.content {
-  margin-top: 20px;
-  font-size: 20px;
-  text-align: left;
-  padding: 20px;
-}
-
-.content h1 {
-  text-align: center;
-}
-
-footer {
-  margin-top: 30px;
-  font-size: 14px;
-}
-
-@media screen and (min-width: 601px) and (max-width: 980px) {
-  body {
-    background-color: lightgray;
-  }
-  main {
-    width: 95%;
-  }
-}
-
-@media screen and (min-width: 370px) and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-  main {
-    width: 100%;
-  }
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-  .content {
-    font-size: 16px;
-  }
-  img {
-    width: 150px;
-    height: auto;
-    margin-top: 15px;
-  }
-}
-
+      background-color: #90EE90;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+  
+    /* Updated header styling */
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    /* Updated nav styling */
+    nav {
+      margin-top: 10px;
+    }
+  
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: blue;
+      font-size: 18px;
+    }
+  
+    /* Resize the main image */
+    #mainImage {
+      width: 300px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    /* Center the caption */
+    .caption {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  
+    .image-list ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+  
+    .image-list ul li {
+      display: inline-block;
+      margin: 5px;
+    }
+  
+    .image-list ul li a {
+      display: inline-block;
+      padding: 8px 12px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+  
+    .image-list ul li a:hover {
+      background-color: #ccc;
+    }
   </style>
 </head>
 <body>
