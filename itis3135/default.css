@@ -74,7 +74,7 @@ footer {
 
 /* Slideshow image */
 .slideshow-container img {
-    width: 300px;  /* Adjust this value as needed */
+    width: 100px;  /* Adjust this value as needed */
     height: auto;
     display: block;
     margin: 0 auto;
