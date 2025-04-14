@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caleb Woodworth Slideshow</title>
+  <link rel="stylesheet" href="css/default.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="scripts/slideshow.js" defer></script>
+</head>
+<body>
+  <div id="header"></div>
+
+  <main>
+    <h2>Caleb Woodworth Slideshow</h2>
+    <p class="tagline">A letter-by-letter journey through my name!</p>
+
+    <div class="slideshow-container">
+      <img id="mainImage" src="images/camera.jpg" alt="C - for Camera">
+      <div class="caption">C - for Camera</div>
+    </div>
+
+    <div class="image-list">
+      <ul id="thumbnailList">
+        <!-- Thumbnails with data attributes -->
+        <li><a href="#" data-img="camera.jpeg" data-caption="C - for Camera">C</a></li>
+        <li><a href="#" data-img="apple.jpeg" data-caption="A - for Apple">A</a></li>
+        <li><a href="#" data-img="lighthouse.jpeg" data-caption="L - for Lighthouse">L</a></li>
+        <!-- Add rest here -->
+      </ul>
+    </div>
+
+    <h3>AI Image Prompts Used</h3>
+    <ul>
+      <li>“A high-quality landscape photo of a digital camera on a wooden table” – Tool: DALL·E</li>
+      <li>“A shiny red apple resting on a picnic blanket” – Tool: DALL·E</li>
+      <!-- List the rest -->
+    </ul>
+  </main>
+
+  <div id="footer"></div>
+</body>
+</html>
