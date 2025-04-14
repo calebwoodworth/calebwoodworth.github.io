@@ -71,3 +71,39 @@ footer {
         margin-top: 15px;
     }
 }
+
+/* Slideshow image */
+.slideshow-container img {
+    width: 300px;  /* Adjust this value as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Thumbnail list styling */
+  .image-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .image-list li a {
+    display: inline-block;
+    padding: 10px 14px;
+    background-color: #eee;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .image-list li a:hover {
+    background-color: #ccc;
+  }
+  
