@@ -5,45 +5,68 @@
   <title>Caleb Woodworth's First Webpage</title>
   <style>
     body {
-      background-color: #f0f8ff;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 100px;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #87cefa, #e0ffff);
       color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border: 3px solid #1e90ff;
+      transition: transform 0.3s;
+    }
+
+    .container:hover {
+      transform: scale(1.02);
     }
 
     h1 {
       font-size: 3em;
       color: #2e8b57;
+      text-shadow: 2px 2px 5px #c0ffc0;
     }
 
     p {
       font-size: 1.5em;
+      color: #333;
+      margin-top: 10px;
     }
 
     a {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 30px;
       font-size: 1.2em;
-      color: #1e90ff;
+      color: #fff;
       text-decoration: none;
-      border: 2px solid #1e90ff;
-      padding: 10px 20px;
-      border-radius: 10px;
-      transition: background-color 0.3s, color 0.3s;
+      background: #1e90ff;
+      padding: 12px 25px;
+      border-radius: 25px;
+      box-shadow: 0 5px 15px rgba(30, 144, 255, 0.4);
+      transition: all 0.3s ease-in-out;
     }
 
     a:hover {
-      background-color: #1e90ff;
-      color: white;
+      background: #104e8b;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(16, 78, 139, 0.5);
     }
   </style>
 </head>
 <body>
 
-  <h1>Caleb Woodworth</h1>
-  <p>Welcome! This is my first webpage!</p>
-  <a href="ITIS3135/">See my ITIS3135 folder</a>
+  <div class="container">
+    <h1>Caleb Woodworth</h1>
+    <p>Welcome! This is my first webpage!</p>
+    <a href="ITIS3135/">See my ITIS3135 folder</a>
+  </div>
 
 </body>
 </html>
